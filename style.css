@@ -1,0 +1,130 @@
+.wrapper {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: #D9D9D9;
+    margin: 50px auto;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    z-index: -2;
+}
+
+.contents {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin: 48px auto;
+
+}
+
+.body {
+    position: absolute;
+    left: 277px;
+    top: 321px;
+    background-color: #C3A94B;
+    border-radius: 50% 50% 0 0;
+    width: 206px;
+    height: 127px;
+}
+
+.head {
+    position: absolute;
+    left: 299px;
+    top: 159px;
+    border-radius: 50%;
+    width: 162px;
+    height: 172px;
+    background-color: #E5D1C6;
+}
+
+.glasses .left {
+    position: absolute;
+    width: 74px;
+    height: 77px;
+    background-color: #E4E0E0;
+    border: 1px solid #000;
+    border-radius: 50%;
+    left: 299px;
+    top: 211.5px;
+}
+
+.glasses .right {
+    position: absolute;
+    width: 74px;
+    height: 77px;
+    background-color: #E4E0E0;
+    border: 1px solid #000;
+    border-radius: 50%;
+    left: 387px;
+    top: 211.5px;
+}
+
+.glasses .bridge {
+    position: absolute;
+    width: 16px;
+    height: 7px;
+    top: 244.5px;
+    left: 372px;
+    background-color: #E4E0E0;
+    border: 1px solid #000;
+}
+
+.hair .left {
+    position: absolute;
+    width: 93px;
+    height: 74px;
+    left: 294px;
+    top: 159px;
+    background-color: #2F2501;
+    border-radius: 200px 0;
+}
+
+.hair .right {
+    position: absolute;
+    width: 93px;
+    height: 74px;
+    left: 375px;
+    top: 159px;
+    background-color: #2F2501;
+    border-radius: 0 200px;
+}
+
+.laptop {
+    position: absolute;
+    width: 110px;
+    height: 87px;
+    left: 327px;
+    top: 381.5px;
+    background-color: #a9a3a3;
+    border-radius: 13px;
+}
+
+.cup .mug {
+    position: absolute;
+    width: 43.5px;
+    height: 45px;
+    left: 519px;
+    top: 403px;
+    background-color: black;
+    z-index: 2;
+}
+
+.cup .handle-inner {
+    position: absolute;
+    width: 27px;
+    height: 26px;
+    left: 547px;
+    top: 410px;
+    background-color: white;
+    z-index: 1;
+}
+
+.cup .handle-outter {
+    position: absolute;
+    width: 30px;
+    height: 32px;
+    left: 547px;
+    top: 407px;
+    background-color: black;
+    z-index: 0;
+}
